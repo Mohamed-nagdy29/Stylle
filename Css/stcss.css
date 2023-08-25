@@ -1,0 +1,231 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --main-color: #19c8fa;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+ul {
+  list-style: none;
+}
+.portifal {
+  padding: 60px;
+  padding-bottom: 60px;
+  background-image: url(../img/bg-masthead.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.portifal .text {
+  text-align: center;
+  top: 40%;
+  position: relative;
+}
+.portifal .text h2 {
+  font-size: 85px;
+}
+.portifal .text p {
+  padding: 10px;
+  font-size: 22px;
+}
+.portifal .text .but {
+  padding: 11px 30px;
+  font-size: 21px;
+  /* padding-bottom: 10px; */
+  margin-top: 19px;
+  color: #fff;
+  background-color: #1d809f;
+  border-color: #1d809f;
+  font-weight: 500;
+  font-size: 23px;
+  text-transform: capitalize;
+}
+.center {
+  padding: 88px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.center .text {
+  position: relative;
+}
+.center .text h3 {
+  font-size: 38px;
+}
+
+.center .text p {
+  font-size: 19px;
+  /* color: #adb5bd; */
+  color: #6c757d;
+  padding: 16px;
+}
+.center .text .but {
+  padding: 13px 18px;
+  color: #fff;
+  background-color: #212529;
+  border-color: #212529;
+  margin-top: 13px;
+}
+.service {
+  padding: 60px;
+  padding-bottom: 60px;
+  background-color: #1d809f;
+}
+.service .text {
+  text-align: center;
+  padding: 20px;
+}
+.service .text h2 {
+  font-size: 12px;
+  color: #ecb807;
+  text-transform: uppercase;
+}
+.service .text p {
+  font-size: 45px;
+  color: white;
+  text-transform: capitalize;
+}
+.mi {
+  background-color: #1d809f;
+  display: flex;
+  padding: 36px;
+  text-align: center;
+  /* margin-bottom: 1px; */
+  justify-content: space-between;
+}
+
+.mi .help {
+  width: 100%;
+}
+.mi .help i {
+  width: 62%;
+  font-size: 70px;
+  color: aqua;
+  background-color: white;
+  border-radius: 98%;
+  padding: 13px;
+  color: #1d809f;
+  margin-bottom: 16px;
+}
+.mi .help h3 {
+  font-weight: bolder;
+  color: white;
+  font-size: 22px;
+  padding: 12px;
+}
+.mi .help p {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  font-size: 17px;
+}
+
+.welcome {
+  background-image: url(../img//bg-callout.jpg);
+  padding: 60px;
+  padding-bottom: 60px;
+  background-size: cover;
+  height: 100vh;
+}
+.welcome .text {
+  text-align: center;
+  position: relative;
+  top: 50%;
+}
+.welcome h2 {
+  font-size: 55px;
+  font-weight: bolder;
+  max-width: 456px;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 33%;
+}
+.welcome .but {
+  padding: 15px 21px;
+  margin-top: 23px;
+  color: #fff;
+  background-color: #1d809f;
+  border-color: #1d809f;
+  text-transform: uppercase;
+}
+.pro {
+  padding: 60px;
+  padding-bottom: 60px;
+}
+.pro .text {
+  text-align: center;
+  padding: 23px;
+}
+.pro .text h2 {
+  font-size: 12px;
+  color: #ecb807;
+  text-transform: uppercase;
+}
+.pro .text p {
+  font-size: 48px;
+
+  text-transform: capitalize;
+}
+.pro .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pro .row .images {
+  flex-basis: 50%;
+}
+.pro .row .images img {
+  max-width: 100%;
+}
+.pro .row .images .caption {
+}
+
+.pro .row .images .caption .continar {
+}
+
+.pro .row .images .caption h3 {
+}
+.pro .row .images .caption p {
+}
+.social {
+  padding: 60px;
+  padding-bottom: 60px;
+  background-color: #212529;
+}
+.social .so {
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+  padding: 18px;
+  /* margin: auto 28px 8px 9px; */
+  color: #19c8fa;
+  font-size: 27px;
+}
+.social .so li {
+  padding: 15px;
+}
+.social .so li i {
+  font-size: 45px;
+}
+.social p {
+  text-align: center;
+  font-size: 12px;
+  color: #19c8fa;
+}
+
+.mo {
+  width: 100%;
+  background-color: cornflowerblue;
+  height: 40px;
+  text-align: center;
+  /* display: flex; */
+  align-items: center;
+}
+.mo span {
+}
